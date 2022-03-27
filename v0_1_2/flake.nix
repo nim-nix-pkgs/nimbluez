@@ -11,6 +11,7 @@
   inputs.src-nimbluez-v0_1_2.ref   = "refs/tags/v0.1.2";
   inputs.src-nimbluez-v0_1_2.owner = "Electric-Blue";
   inputs.src-nimbluez-v0_1_2.repo  = "NimBluez";
+  inputs.src-nimbluez-v0_1_2.dir   = "";
   inputs.src-nimbluez-v0_1_2.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
