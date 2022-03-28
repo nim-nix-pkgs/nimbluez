@@ -11,7 +11,6 @@
   inputs.src-nimbluez-master.ref   = "refs/heads/master";
   inputs.src-nimbluez-master.owner = "Electric-Blue";
   inputs.src-nimbluez-master.repo  = "NimBluez";
-  inputs.src-nimbluez-master.dir   = "";
   inputs.src-nimbluez-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
